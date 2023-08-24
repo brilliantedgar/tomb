@@ -5,10 +5,10 @@ import { BankInfo } from './tomb-finance';
 
 const configurations: { [env: string]: Configuration } = {
   development: {
-    chainId: ChainId.FTMTESTNET,
-    networkName: 'Fantom Opera Testnet',
-    ftmscanUrl: 'https://testnet.ftmscan.com',
-    defaultProvider: 'https://rpc.testnet.fantom.network/',
+    chainId: 84531,
+    networkName: 'Base Testnet',
+    ftmscanUrl: 'https://goerli.basescan.org',
+    defaultProvider: 'https://goerli.base.org',
     deployments: require('./tomb-finance/deployments/deployments.testing.json'),
     externalTokens: {
       WFTM: ['0xf1277d1ed8ad466beddf92ef448a132661956621', 18],
